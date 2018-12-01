@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Faroe Islands</title>
+    <link rel="stylesheet" href="css/normalize.css"> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />   
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    
+   <script>
+       $(document).ready(function(){
+           $("#form-main").hide();
+
+        $("#contact").click(function(){
+            $("#form-main").show(3000);
+    });
+     
+           $("#button_closed").click(function(){
+            $("#form-main").hide(3000);
+        });
+
+       });
+</script>
+
+
+</head>
+<body>
+    <!--MODAL WINDOW-->
+     
+     <div class="form-main" id="form-main">
+        <form action="andrei.minsk.1986@gmail.com" method="post" name="Contact form">
+            <div class="title-form">
+                <a href="#" class="button_closed" id="button_closed">&#x2715;</a>
+            </div>
+            <legend>Get in touch with us</legend>
+            <div class="conteiner-form">
+                <div class="user_data">
+                    <input class="line-input" type="text" name="name" id="name" value="Name">
+                    <input class="line-input" type="email" name="name" id="mail" value="Email">
+                </div> 
+                    <input class="line-input subject_position" type="text" name="Subject" id="Subject" value="Subject">
+            <div class="textarea-conteiner">
+                    <textarea class="textarea " name="comment" id="comment" cols="10" rows="10" >Message</textarea>         
+                </div>
+            </div>
+          <button class="button_form" type="submit">SEND REQUEST</button>  
+    </form>   
+</div>
+     
+       
+     
+      <!-- MENU --->
+      <div class="section_navbar">
+          <div class="navbar">
+                <div class="logo">
+                   <a href="#"><img src="./images/logo.svg" alt="logo" title="logo"></a>
+                </div>  
+                              
+                <ul class="menu">
+                   <li class="color_link_active"><a href="#" title="Home">Home</a></li>
+                   <li><a href="./pages/Hot_sports.html" title="Hot Spots">Hot Spots</a></li>
+                   <li><a href="#" title="What to do">What to do</a></li>
+                   <li><a href="#" title="Events">Events</a></li>
+                   <li><a href="#" title="Facts">Facts</a></li>
+                   <li><a href="#" title="News">News</a></li>
+                   <li><a href="#" title="Regions">Regions</a></li>
+                   <li><a href="#" title="Articles">Articles</a></li>
+                </ul>
+            </div>
+      </div>
+       <div class="section_hero">
+           <div class="hero_title">
+              <span>Welcome to</span>
+               <h1>
+                   Faroe Islands
+               </h1>
+               <p>The Faroese nature is very real, always challenging <br> you to explore it by sea or land.</p>
+               <a href="#" class="button_discover" title="button_discover">discover</a>
+           </div>
+            <div class="section_hero_img" data-parallax='{"y": 230}'>
+                
+            </div>  
+       </div>       
+       <!---------- SECTION TOP EXPERIENCES  ---------->
+        
+        <div class="section_top_experiences">
+            <div class="top_experiences">              
+                <div class="conteiner_title">
+                    <h2 >Top experiences in Faroese</h2>
+                   <div class="button-conteiner"><a href="pages/Hot_sports.html" title="Learn more">Learn more</a></div>
+                </div>
+               <div class="link_gallery">
+                   <div class="item_gallery">
+                       <a href="#" title="VESTMANNA BIRD CLIFFS"><img src="./images/hotsport_gallery/hotspots_img9.jpg" alt="VESTMANNA BIRD CLIFFS" title="VESTMANNA BIRD CLIFFS">
+                           <div class="text_item_gallery">
+                               <h3>VESTMANNA BIRD CLIFFS</h3>
+                               <p>Sail into deep grottoes through narrow straits, close to the almost 700 metre high sheer cliffs</p>
+                           </div>
+                       </a>                      
+                   </div>
+                   <div class="item_gallery">
+                       <a href="#" title="HISTORIC KIRKJUBØUR"><img src="./images/hotsport_gallery/hotspots_img10.jpg" alt="HISTORIC KIRKJUBØUR" title="HISTORIC KIRKJUBØUR">
+                           <div class="text_item_gallery">
+                               <h3>HISTORIC KIRKJUBØUR</h3>
+                               <p>Kirkjubøur is one of the Faroe Islands most important historic places with a church from the Middle Ages still in use</p>
+                           </div>
+                       </a>                      
+                   </div>
+                   <div class="item_gallery">
+                       <a href="#" title="island of Nólsoy"><img src="./images/hotsport_gallery/hotspots_img11.jpg" alt="island of Nólsoy" title="island of Nólsoy">
+                           <div class="text_item_gallery">
+                               <h3>island of Nólsoy</h3>
+                               <p>The world largest colony of Storm Petrels. The colony can be found on the island of Nólsoy.</p>
+                           </div>
+                       </a>                       
+                   </div>
+                   <div class="item_gallery">
+                       <a href="#" title="TÓRSHAVN OLD TOWN"><img src="./images/hotsport_gallery/hotspots_img12.jpg" alt="TÓRSHAVN OLD TOWN" title="TÓRSHAVN OLD TOWN">
+                           <div class="text_item_gallery">
+                               <h3>TÓRSHAVN OLD TOWN</h3>
+                               <p>Tinganes is one of the world’s oldest courts dating from approximately 825. </p>
+                           </div>
+                       </a>                      
+                   </div>
+               </div>
+            </div>
+        </div>  
+    
+     <!----    SECTION NEWS    ------>            
+   
+        <div class="section_news">
+            <div class="news">             
+                <div class="conteiner_title">
+                    <h2>Latest news</h2>
+                   <div class="button-conteiner"><a href="https://www.faroeislands.fo/the-big-picture/news/">Browse all</a></div>
+                </div>
+               <div class="news_block">                 
+                    <div class="news_item">
+                        <div class="news_foto">
+                            <a href="#" title="Sprotin publishes French-Faroese dictionary">
+                                <img src="./images/news_gallery/news_img1.jpg" alt="Sprotin publishes French-Faroese dictionary" title="Sprotin publishes French-Faroese dictionary">
+                            </a>
+                        </div>
+                        <div class="news_info">
+                            <h3>December 23, 2018</h3>
+                            <a href="#" title="Sprotin publishes French-Faroese dictionary">
+                                <span>Sprotin publishes French-Faroese dictionary</span>
+                                <p>Sprotin, a Faroese publishing house that also has an online dictionary service, has added a French-Faroese dictionary to its repertoire.</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="news_item">
+                        <div class="news_foto">
+                            <a href="#" title="First Faroese adventure festival">
+                                <img src="./images/news_gallery/news_img3.jpg" alt="First Faroese adventure festival" title="First Faroese adventure festival">
+                            </a>
+                        </div>
+                        <div class="news_info">
+                            <h3>December 23, 2018</h3>
+                            <a href="#" title="First Faroese adventure festival">
+                                <span>First Faroese adventure festival</span>
+                                <p>The Faroe Islands will host its first adventure festival in September 7-9, inviting locals and visitors from abroad for a weekend of trail running, adventures and parties in the beautiful surroundings of the North Atlantic…</p>
+                            </a>
+                        </div>
+                    </div>                   
+                    <div class="news_item">
+                        <div class="news_foto">
+                            <a href="#" title="Hotels, hostels and... boatbeds?">
+                                <img src="./images/news_gallery/news_img2.jpg" alt="Hotels, hostels and... boatbeds?" title="Hotels, hostels and... boatbeds?">
+                            </a>
+                        </div>
+                        <div class="news_info">
+                            <h3>December 22, 2018</h3>
+                            <a href="#" title="Hotels, hostels and... boatbeds?">
+                                <span>Hotels, hostels and... boatbeds?</span>
+                                <p>You’ve probably tried sleeping in a hotel bed, hostel bed, campervan and maybe even in a tent. But how about a boatbed? </p>
+                            </a>
+                        </div>
+                    </div>                 
+                    <div class="news_item">
+                        <div class="news_foto">
+                            <a href="#" title="Hotel Vágar">
+                                <img src="./images/news_gallery/news_img4.jpg" alt="Hotel Vágar" title="Hotel Vágar">
+                            </a>
+                        </div>
+                        <div class="news_info">
+                            <h3>December 22, 2018</h3>
+                            <a href="#" title="Hotel Vágar">
+                                <span>Hotel Vágar one of 10 best airport hotels worldwide</span>
+                                <p>Hotel Vágar is joined by prestigious hotels on the top 10 list, such as the Hilton in Amsterdam, Hotel Verde in Cape Town and Courtyard by Marriot in Bogota.</p>
+                            </a>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>  
+
+     <!------   MAPS   ------->  
+       
+       <div class="map" id="map">
+           
+       </div>
+       
+       
+    <!----  SECTION ABOUT  ----->    
+       
+       <div class="section_about">   
+           <div class="about">
+               <h2>Góðan dag</h2>
+               <span>Come and experience what the Faroebr <br> Islands have to offer</span>
+
+                <p>Located in the Northeast Atlantic, the Faroe Islands comprise 18 small islands, characterised by steep cliffs, tall mountains, narrow fjords – and a population of 50,000. The Faroese language derives from Old Norse, which was spoken by the Norsemen who settled the islands 1200 years ago.</p>
+
+                <p>Through the centuries, the Faroese have defied the harsh nature and living conditions. Enduring today is a nation in which the living standard is one of the highest in the world. A highly industrial economy mainly based on fisheries and aquaculture continues to flourish, while a Nordic welfare model ensures everyone the opportunity to explore his or her own potential. Faroese maritime expertise is widely renowned and the Faroe Islands export seafood to all six continents.</p>
+
+                <p>Centuries of relative isolation have resulted in the preservation of ancient traditions that to this day shape life in the Faroe Islands. The unique mixture of traditional and modern culture characterises the Faroese society, constituting a strong sense of local community and an active outlook as a globalized Nordic nation.</p>
+            
+                <div class="button-conteiner">
+                    <a href="#" title="Read more">Read more</a>
+                </div>            
+            </div>
+        </div> 
+              
+      <!-------------------- WHAT TO DO  ------------>
+           
+        <div class="section_what_to_do">          
+            <div class="cell_item_gallery">
+                <div class="conteiner_title">
+                    <h2>What to do</h2>
+                    <div class="button-conteiner"><a href="#" title="Browse all">Browse all</a></div>
+                </div>               
+                <div class="cell_item">
+                    <div class="cell_section">
+                       <a href="#" title="what to do"><img src="./images/what_to_do_gallery/whattodo_img1.jpg" alt="whattodo_img1" title="what to do"></a>
+                   </div>
+                   <div class="cell_data">
+                       <a href="#" title="what to do"><span>What Makes A Hotel Boutique</span></a>
+                   </div>
+                </div>          
+                <div class="cell_item">
+                    <div class="cell_section">
+                       <a href="#" title="what to do"><img src="./images/what_to_do_gallery/whattodo_img2.jpg" alt="whattodo_img2" title="what to do"></a>
+                   </div>
+                   <div class="cell_data">
+                       <a href="#" title="what to do"><span>Last Minute Festive Packages From Superbreak</span></a>
+                   </div>
+                </div>                  
+                <div class="cell_item">
+                    <div class="cell_section">
+                       <a href="#" title="what to do"><img src="./images/what_to_do_gallery/whattodo_img3.jpg" alt="whattodo_img3" title="what to do"></a>
+                   </div>
+                   <div class="cell_data">
+                       <a href="#" title="what to do"><span>Last Minute Festive Packages From Superbreak</span></a>
+                   </div>
+                </div>                                 
+                <div class="cell_item">
+                    <div class="cell_section">
+                       <a href="#" title="what to do"><img src="./images/what_to_do_gallery/whattodo_img4.jpg" alt="whattodo_img4" title="what to do"></a>
+                   </div>
+                   <div class="cell_data">
+                       <a href="#" title="what to do"><span>Do A Sporting Stag Do In Birmingham</span></a>
+                   </div>
+                </div>                   
+                <div class="cell_item">
+                    <div class="cell_section">
+                       <a href="#" title="what to do"><img src="./images/what_to_do_gallery/whattodo_img5.jpg" alt="whattodo_img5" title="what to do"></a>
+                   </div>
+                   <div class="cell_data">
+                       <a href="#" title="what to do"><span>Mother Earth Hosts Our Travels</span></a>
+                   </div>
+                </div>            
+                <div class="cell_item">
+                    <div class="cell_section">
+                       <a href="#" title="what to do"><img src="./images/what_to_do_gallery/whattodo_img6.jpg" alt="whattodo_img6" title="what to do"></a>
+                   </div>
+                   <div class="cell_data">
+                       <a href="#" title="what to do"><span>Last Minute Festive Packages From Superbreak</span></a>
+                   </div>
+                </div>                   
+                <div class="cell_item">
+                    <div class="cell_section">
+                       <a href="#" title="what to do"><img src="./images/what_to_do_gallery/whattodo_img7.jpg" alt="whattodo_img7" title="what to do"></a>
+                   </div>
+                   <div class="cell_data">
+                       <a href="#" title="what to do"><span>Mother Earth Hosts Our Travels</span></a>
+                   </div>
+                </div>                    
+                <div class="cell_item">
+                    <div class="cell_section">
+                       <a href="#" title="what to do"><img src="./images/what_to_do_gallery/whattodo_img8.jpg" alt="whattodo_img8" title="what to do"></a>
+                   </div>
+                   <div class="cell_data">
+                       <a href="#" title="what to do"><span>How To Maintain Your Mental Health</span></a>
+                   </div>
+                </div>                    
+                <div class="cell_item">
+                    <div class="cell_section">
+                       <a href="#" title="what to do"><img src="./images/what_to_do_gallery/whattodo_img9.jpg" alt="whattodo_img9" title="what to do"></a>
+                   </div>
+                   <div class="cell_data">
+                       <a href="#" title="what to do"><span>New Ideas For A Low Cost Vacation On Water</span></a>
+                   </div>
+                </div>    
+                </div>      
+           </div>
+     
+    <!---   SECTION FAROE DETAIL  ----->   
+              
+       <div class="section_faroese_detail">
+           <div class="faroese_detail">
+               <h2>Faroese in detail</h2>
+               <div class="main_detail_link_block"> 
+                <ul class="detail_link_block">
+                   <li>Top recommendations</li>
+                   <li><a href="#" title="Best activities in Faroese">Best activities in Faroese<span>&#129106;</span></a></li>
+                   <li><a href="#" title="Best places to stay in Faroese">Best places to stay in Faroese<span>&#129106;</span></a> </li>
+                   <li><a href="#" title="Best places to eat in Faroese">Best places to eat in Faroese <span>&#129106;</span></a></li>
+               </ul>               
+               <ul class="detail_link_block">
+                   <li>On the ground</li>
+                   <li><a href="#" title="Activities">Activities<span>&#129106;</span></a></li>
+                   <li><a href="#" title="Sleeping">Sleeping <span>&#129106;</span></a></li>
+                   <li><a href="#" title="Eating">Eating <span>&#129106;</span></a></li>
+                   <li><a href="#" title="Drinking and nightlife ">Drinking and nightlife <span>&#129106;</span></a></li>
+                   <li><a href="#" title="Entertainment">Entertainment <span>&#129106;</span></a></li>
+                   <li><a href="#" title="Shopping">Shopping <span>&#129106;</span></a></li>
+                   <li><a href="#" title="On the ground">On the ground <span>&#129106;</span></a></li>
+               </ul>              
+               <ul class="detail_link_block">
+                   <li>Organize your time</li>
+                   <li><a href="#" title="Itineraries">Itineraries<span>&#129106;</span></a></li>
+                   <li><a href="#" title="When to go and weather">When to go and weather<span>&#129106;</span></a> </li>
+                   <li><a href="#" title="Month by month">Month by month<span>&#129106;</span></a></li>
+               </ul>              
+               <ul class="detail_link_block">
+                   <li>Understand</li>
+                   <li><a href="#" title="Etiquette">Etiquette<span>&#129106;</span></a></li>
+                   <li><a href="#" title="Destination today">Destination today<span>&#129106;</span></a></li>
+                   <li><a href="#" title="History">History<span>&#129106;</span></a></li>
+                   <li><a href="#" title="Basic stats">Basic stats<span>&#129106;</span></a> </li>
+                   <li><a href="#" title="Further reading">Further reading<span>&#129106;</span></a></li>
+               </ul>              
+               <ul class="detail_link_block">
+                   <li>Planning tools</li>
+                   <li><a href="#" title="Faroese is known for">Faroese is known for<span>&#129106;</span></a></li>
+                   <li><a href="#" title="Money and costs">Money and costs<span>&#129106;</span></a></li>
+                   <li><a href="#" title="Travel with children">Travel with children<span>&#129106;</span></a></li>
+                   <li><a href="#" title="Travel with disabilities">Travel with disabilities<span>&#129106;</span></a></li>
+                   <li><a href="#" title="Entry and exit formalities">Entry and exit formalities<span>&#129106;</span></a></li>
+                   <li><a href="#" title="Planning tips">Planning tips<span>&#129106;</span></a></li>
+               </ul>               
+               <ul class="detail_link_block">
+                   <li>Practical information<span>&#129106;</span></li>
+                   <li><a href="#" title="Getting around">Getting around<span>&#129106;</span></a></li>
+                   <li><a href="#" title="Flights and getting there">Flights and getting there<span>&#129106;</span></a></li>
+                   <li><a href="#" title="Health">Health<span>&#129106;</span></a></li>
+                   <li><a href="#" title="Directory information">Directory information<span>&#129106;</span></a></li>
+               </ul>
+               </div>
+            </div>   
+       </div>
+             
+    <!---   SECTION FOOTER  ----->                                 
+
+       <div class="section_footer">
+           <div class="navbar_footer">
+                <div class="copyright_footer">
+                    <p>&copy; 2018 Faroese. All rights reserved. No part of this site may be reproduced without our written permission.</p>
+                </div>   
+                <ul class="menu_footer">
+                   <li><a href="#" title="About us">About us</a></li>
+                   <li><a href="#" title="Work for Us">Work for Us</a></li>
+                   <li><a href="#" title="Contact us" id="contact" >Contact us</a></li>
+                   <li><a href="#" title="Trade and advertising">Trade and advertising</a></li>
+                   <li><a href="#" title="Tourism Solutions">Tourism Solutions</a></li>
+                   <li><a href="#" title="Terms & conditions">Terms &amp; conditions</a></li>
+                   <li><a href="#" title="Privacy policy">Privacy policy</a></li>
+                </ul>
+           </div>
+       </div>
+
+  
+  
+  
+   
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script> <!--старая версия -->
+    <script type="text/javascript" src="js/jquery.parallax-scroll.js"></script>  <!--подключение паралакс эффекта -->
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiYW5kcmVpLW1pbnNrLTE5ODYiLCJhIjoiY2pocDRkMjRuMTFtcTNkanluNmM5ZG0xZSJ9.J3_9jtGEnxmJ7TF6t95O_w';
+        var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/andrei-minsk-1986/cjhp4owyz1tx72rmkfw4mkau1',
+        center: [-6.665,61.898],
+        zoom: 7.7,
+        });
+        map.addControl(new mapboxgl.NavigationControl());
+        map.scrollZoom.disable();
+ 
+    </script>
+</body>
+</html>
