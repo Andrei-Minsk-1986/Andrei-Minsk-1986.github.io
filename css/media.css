@@ -1,0 +1,1190 @@
+@media screen and (max-width: 1200px) {
+    /*=============  FOOTER  ===================*/
+
+.copyright_footer {
+     height: 42px;
+    width: 224px; 
+}
+
+
+
+
+.navbar_footer {   
+    max-width: 920px;
+    padding: 0 40px;  
+   
+}
+
+
+
+.menu_footer {
+    flex-wrap: wrap;
+    width: 500px;
+    padding-top: 24px;
+    margin-left: 35px;
+    margin-right: 0;
+}
+
+
+.menu_footer li {
+    display: inline-block;  
+}
+
+
+.menu_footer a {    
+    padding: 0 0 10px 0;
+    margin-right: 20px;   
+    margin-left: 0;   
+    transition: 0.3s;
+    
+}
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    
+/*===========    Top experiences in Faroese   ============*/
+
+
+.top_experiences {
+    max-width: 1000px;
+    padding: 0 40px;
+}
+
+.item_gallery {
+    width: 100%;
+}
+
+
+.link_gallery {
+    flex-wrap: wrap;
+    
+}
+
+
+.item_gallery {
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 270px;
+    margin-bottom: 40px;
+}
+
+.item_gallery:last-child {
+    margin-right: 40px;
+}
+    
+    .text_item_gallery h3 {    
+    line-height: 26px;
+    font-size: 20px;
+    letter-spacing: 1.6px;
+    
+}
+
+
+.text_item_gallery p {
+    line-height: 23px;
+    font-size: 16px;
+    
+}
+
+
+}
+
+
+
+
+@media screen and (max-width: 920px) {
+    
+    /*===========    Top experiences in Faroese   ============*/
+    
+.top_experiences {
+    max-width: 920px;
+   
+}
+.text_item_gallery h3 {    
+    line-height: 26px;
+    font-size: 20px;
+    letter-spacing: 1.6px;
+    
+}
+
+
+.text_item_gallery p {
+    line-height: 23px;
+    font-size: 16px;
+    
+}
+    
+ 
+/*=============  FOOTER  ===================*/
+
+
+
+
+.copyright_footer {
+     height: 42px;
+    width: 224px; 
+}
+
+
+
+
+.navbar_footer {   
+    max-width: 920px;
+    padding: 0 40px;  
+   
+}
+
+
+
+.menu_footer {
+    flex-wrap: wrap;
+    width: 500px;
+    padding-top: 24px;
+    margin-left: 35px;
+    margin-right: 0;
+}
+
+
+.menu_footer li {
+    display: inline-block;  
+}
+
+
+.menu_footer a {    
+    padding: 0 0 10px 0;
+    margin-right: 20px;   
+    margin-left: 0;   
+    transition: 0.3s;
+    
+}
+
+
+    
+    }
+
+
+
+
+@media screen and (max-width: 900px) {
+    .menu {
+        display: none;
+    }
+    
+    
+/*==============  SECTION FAROESE IN DETAIL  =================*/
+
+
+.faroese_detail { 
+    padding: 20px 40px 0;
+    max-width: 720px; 
+}
+
+
+.main_detail_link_block {
+   display: flex;
+    height: 900px;
+    
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 720px) {
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*=============  NAVBAR SECTION  ====================*/
+         
+
+
+
+.navbar {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 40px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+
+
+    .menu {
+        display: none;
+    }
+
+/*============= HERO SECTION  ===============*/
+
+
+
+/*===========    Top experiences in Faroese   ============*/
+
+.top_experiences {
+    max-width: 720px;
+    padding: 0 40px;
+}
+
+.item_gallery {
+    float: left;
+    margin-right: 0;
+    position: relative;
+    background-color: black;
+    margin-bottom: 40px;
+}
+
+
+.link_gallery {
+    flex-wrap: wrap;
+    
+}
+
+
+.item_gallery {
+    border-radius: 5px;
+    overflow: hidden;
+    width: 270px;
+}
+
+    
+.text_item_gallery h3 {    
+    line-height: 26px;
+    font-size: 20px;
+    letter-spacing: 1.6px;
+    
+}
+
+
+.text_item_gallery p {
+    line-height: 23px;
+    font-size: 16px;
+    
+}
+    
+    .item_gallery:last-child {
+    margin-right: 0;
+}
+
+
+/*=======================  LATEST NEWS  ====================*/
+
+.section_news {
+    width: 100%;
+}
+
+.news { 
+    max-width: 720px; 
+    padding: 0 40px;
+}
+
+
+/*=================  MAP  ===============*/
+
+.map {  
+    width: 100%;
+    height: 608px;
+}
+
+
+/*=============   ABOUT  ===============*/
+
+.section_about {
+   width: 100%;
+}
+
+
+.about {
+    max-width: 640px; 
+    margin: 0 40px;
+}
+
+
+.about h2 {
+    margin-top: 32px;
+}
+
+
+
+/*==========  SECTION WHAT TO DO ===========*/
+
+
+.section_what_to_do {
+    width: 100%;
+    height: auto;
+    background-color: #F6F6F6;   
+}
+
+
+.cell_item_gallery {
+    display: flex;
+    flex-flow: wrap;
+    padding: 0 40px;
+     margin: 65px auto;
+    justify-content: space-between;
+    max-width: 720px;
+}
+
+
+.cell_item {
+    display: flex;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+
+.cell_data {
+    width: 100%;
+    max-width: 200px;
+    height: 48px;    
+}
+
+
+.cell_section  {
+    width: 83px;
+    height: 44px;
+    border-radius: 4px;   
+}
+
+
+
+
+/*==============  SECTION FAROESE IN DETAIL  =================*/
+
+
+.faroese_detail { 
+    padding: 20px 40px 0;
+    max-width: 720px; 
+}
+
+
+.main_detail_link_block {
+   display: flex;
+    height: 800px;
+    
+}
+
+
+
+
+/*=============  FOOTER  ===================*/
+
+
+
+
+.copyright_footer {
+     height: 42px;
+    width: 224px; 
+}
+
+
+
+
+.navbar_footer {   
+    max-width: 720px;
+    padding: 0 40px;  
+   
+}
+
+
+
+.menu_footer {
+    flex-wrap: wrap;
+    width: 480px;
+    padding-top: 24px;
+    margin-left: 35px;
+    margin-right: 0;
+}
+
+
+.menu_footer li {
+    display: inline-block;  
+}
+
+
+.menu_footer a {    
+    padding: 0 0 10px 0;
+    margin-right: 20px;   
+    margin-left: 0;   
+    transition: 0.3s;
+    
+}
+}
+
+
+
+
+@media screen and (max-width: 670px) {
+
+    
+/*===========    Top experiences in Faroese   ============*/
+
+
+.top_experiences {
+    max-width: 670px;
+    padding: 0 40px;
+}
+
+
+
+.link_gallery {
+    flex-wrap: wrap;
+    
+}
+    
+    
+.item_gallery {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 270px;
+    width: 100%;
+      
+} 
+
+    
+.item_gallery:last-child {
+    margin: 0 auto;
+}
+
+.item_gallery:last-child {
+    margin-bottom: 0;
+}
+    
+    
+/*=======================  LATEST NEWS  ====================*/
+
+
+
+.news {
+   
+    max-width: 640px; 
+   
+}
+
+.news_foto {
+    background-color: black;
+}
+
+.news_info {
+    width: 100%;
+    
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.news_foto  {
+    border-radius: 5px;
+    width: 100%;
+    max-width: 210px;
+    min-width: 200px;
+    overflow:hidden;
+ 
+}
+
+
+
+
+
+    .news_info h3 {
+        font-family: 'brandon_grotesqueblack';
+        line-height: 21px;
+        font-size: 11px;
+        text-transform: uppercase;
+        color: #9B9B9B; 
+}
+
+    .news_info p {
+        font-family: 'brandon_grotesque_regularRg';
+        line-height: 21px;
+        font-size: 16px;
+        color: #4A4A4A;
+}
+
+    .news_info span {
+        font-family: 'brandon_grotesquebold';
+        line-height: 24px;
+        font-size: 19px;
+        color: #2B2B2B;
+}
+
+    .news_info a {
+        text-decoration: none;
+        transition: all ease 0.8s;
+}
+
+     .news_item a:hover {
+        transition: all ease 0.8s; 
+        color: #BD6151;
+}
+
+    .news_info p:hover {
+        color: #BD6151;
+        transition: all ease 0.8s;
+}
+
+
+
+
+    
+    
+    
+
+}
+
+@media screen and (max-width: 640px) {
+    /*==============  SECTION FAROESE IN DETAIL  =================*/
+
+    .main_detail_link_block {
+       display: flex;
+        height: 800px;
+        flex-direction: column;
+        flex-flow: column wrap;
+        justify-content: space-between;
+    
+}
+    
+    .detail_link_block {
+        padding-left: 0;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 530px) {
+    
+  /*=============  NAVBAR SECTION  ====================*/
+         
+
+
+
+.menu {
+    display: none;
+     
+}
+
+    /*===========    Top experiences in Faroese   ============*/
+
+
+
+    .conteiner_title h2 {
+        font-size: 24px;
+        line-height: 28px;
+   
+    
+}
+
+    .item_gallery {
+        margin: 0 auto;
+        margin-bottom: 20px;
+} 
+    
+    .item_gallery:last-child {
+        margin: 0 auto;
+    
+}
+    
+
+    
+    
+    
+    
+    
+/*==============  SECTION FAROESE IN DETAIL  =================*/
+
+
+
+
+.faroese_detail { 
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 0;
+   
+    
+}
+
+
+.main_detail_link_block {
+   display: block;
+    height: 100%;
+   
+   
+    
+}
+}
+ 
+
+
+@media screen and (max-width: 530px) {
+    
+    
+    
+    
+    
+   /*=============  FOOTER  ===================*/
+
+
+
+.copyright_footer {
+   
+    width: 100%; 
+}
+
+
+ .copyright_footer p {
+    
+     
+    width: 100%; 
+}
+
+.navbar_footer { 
+   
+    display: flex;
+    flex-direction: column-reverse;
+   
+    padding: 0 20px;   
+}
+
+
+
+.menu_footer {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+   
+    margin-left: -10px;
+}
+
+
+
+
+.menu_footer a {
+    display: inline-block;
+   
+    font-size: 12px;
+    letter-spacing: 0.4px;
+   
+    
+    box-sizing: border-box;
+    margin-left: 10px;
+    text-align: left;
+    transition: 0.9s;
+     white-space: nowrap;
+}  
+    
+    
+    
+}
+  
+
+
+
+@media screen and (max-width: 440px) {
+    /*===========    Top experiences in Faroese   ============*/
+    
+.conteiner_title {
+    margin-top: 70px;
+    margin-bottom: 27px;
+    display: flex;
+    flex-direction: column;
+   
+  
+}    
+    
+
+    .conteiner_title h2 {
+    font-size: 24px;
+    line-height: 28px;
+    
+        
+        
+}
+    
+}
+
+
+@media screen and (max-width: 420px) {
+    
+   /*=======================  LATEST NEWS  ====================*/
+
+
+.news {
+    padding: 0 20px;
+}
+
+.news_block {
+    display: flex;
+    flex-direction: column; 
+}
+
+.news_foto {
+    margin: 0 auto;
+}
+
+.news_item {
+    display: block;
+    padding-top: 40px;
+ 
+}
+
+.news_info {
+    width: 100%;
+    text-align: justify;
+    padding-left: 0;
+    
+}
+
+    
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+    
+  /*=============  NAVBAR SECTION  ====================*/
+    .menu {
+        display: none;
+    }
+    
+    .logo {
+        margin-left: -20px;
+    }
+
+    /*============= HERO SECTION  ===============*/
+    
+    
+    .hero_title h1 {
+  
+    font-size: 30px;
+   
+}
+
+.hero_title span{
+   
+    font-size: 18px;
+    
+}    
+    
+    .hero_title p {
+    line-height: 25px;
+    font-size: 20px;
+    padding: 0 20px;
+   
+
+}
+
+  /*===========    Top experiences in Faroese   ============*/
+    
+.conteiner_title {
+    margin-top: 70px;
+    margin-bottom: 27px;
+    display: flex;
+    flex-direction: column;
+   
+  
+}    
+    
+
+    .conteiner_title h2 {
+    font-size: 24px;
+    line-height: 28px;
+    
+        
+        
+}
+
+
+/*=======================  LATEST NEWS  ====================*/
+
+
+.news {
+    padding: 0 20px;
+}
+
+.news_block {
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.news_item {
+    display: block;
+    padding-top: 40px;
+ 
+}
+
+.news_info {
+    width: 100%;
+    text-align: justify;
+    padding-left: 0;
+    
+}
+
+
+.map {   
+    width: 100%;
+    height: 520px;
+   
+
+}
+
+/*=============   ABOUT  ===============*/
+
+
+.about {
+    max-width: 320px;
+   margin: 20px;
+      
+}
+
+
+.about h2 {
+    line-height: 48px;
+    font-size: 40px; 
+}
+
+
+.about span {   
+    line-height: 19px;
+    font-size: 16px;  
+}
+
+
+.about p {   
+    line-height: 32px;
+    font-size: 18px; 
+    text-align: justify; 
+}
+
+
+
+
+/*==========  SECTION WHAT TO DO ===========*/
+
+
+
+
+.cell_item_gallery {
+
+    padding: 0 20px;
+   
+}
+
+.cell_item {
+    padding-bottom: 20px;
+   
+    
+
+}
+
+
+
+
+.cell_section  {
+    width: 83px;
+    height: 44px;
+    border-radius: 5px;
+    overflow:hidden;
+    background-color: black;
+   
+}
+
+
+
+
+
+.cell_data {
+    width: 170px;
+    height: 44px;
+    margin: 10px 15px;
+}
+
+
+.cell_data a{
+    font-family: 'brandon_grotesquemedium';
+    line-height: 22px;
+    font-size: 16px;
+    color: #2B2B2B;
+    text-decoration: none;  
+}
+
+
+
+/*==============  SECTION FAROESE IN DETAIL  =================*/
+
+
+
+
+.faroese_detail { 
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 0;
+     
+    
+}
+
+
+.main_detail_link_block {
+   display: block;
+    height: 100%;
+   
+   
+    
+}
+
+    
+
+/*=============  FOOTER  ===================*/
+
+
+
+.copyright_footer {
+   
+    width: 100%; 
+}
+
+
+ .copyright_footer p {
+    
+     
+    width: 100%; 
+}
+
+.navbar_footer { 
+   
+    display: flex;
+    flex-direction: column-reverse;
+   
+    padding: 0 20px;   
+}
+
+
+
+.menu_footer {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+   
+    margin-left: -10px;
+}
+
+
+
+
+.menu_footer a {
+    display: inline-block;
+   
+    font-size: 12px;
+    letter-spacing: 0.4px;
+   
+    
+    box-sizing: border-box;
+    margin-left: 10px;
+    text-align: left;
+    transition: 0.9s;
+     white-space: nowrap;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========  MODAL WINDOW  ==========*/
+
+
+@media (max-width: 720px) {
+            
+             form {
+            width: 100%;
+            height: 818px;
+            margin: 100px auto;
+            background-color: #FFFFFF;
+        }
+        
+            
+        .title-form {
+            background-image: url(../images/form_img.png);
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 198px;
+            display: flex;
+            justify-content: flex-end;
+            align-content: center;      
+        }
+            
+            
+            .line-input {
+            display: block;
+            height: 52px;
+            width: 100%;
+            padding-left: 16px;
+            background: #F8F8F8;
+            border: 1px solid #D6D6D6;
+            box-sizing: border-box;
+            border-radius: 5px;
+            font-family: 'brandon_grotesque_regularRg';
+            line-height: 21px;
+            font-size: 20px;
+            color: #A9A9A9;
+        }
+        
+        
+        .line-input:focus {
+            
+            background: #EDF9FF;
+            border: 1px solid #2D9CDB;
+            box-sizing: border-box;
+            border-radius: 5px;
+        } 
+        
+        
+        .subject_position {
+            width: 100%;
+            height: 52px;
+            margin: 40px 0;
+        }
+    
+        
+     
+        .textarea {
+            min-height: 100px;
+            min-width: 100px;
+            max-width: 100%;
+            max-height: 150px;
+            background: #F8F8F8;
+            border: 1px solid #D6D6D6;
+            box-sizing: border-box;
+            border-radius: 5px;
+            
+            height: 150px;
+            line-height: 21px;
+            font-size: 20px;
+            font-family: 'brandon_grotesque_regularRg';
+            color: #A9A9A9;   
+            padding-left: 16px;
+            padding-top: 12px;
+            z-index: 1;
+        }
+            
+        }
+    
+        
+        
+        @media (max-width: 460px) {
+            
+             form {
+            max-width: 1024px;
+            height: 818px;
+            margin: 0;
+            background-color: #FFFFFF;
+        }
+        
+        .title-form {
+          
+            width: 100%;
+           
+            
+        }
+ 
+        legend {
+           
+            line-height: 32px;
+            font-size: 26px;
+            margin-bottom: 40px;
+            
+        }
+
+        
+        .conteiner-form {
+            padding: 0 20px 0;
+           
+        }
+    
+        .user_data {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        
+        .line-input {
+            margin-bottom: 20px;
+        }
+            
+            
+        .subject_position {           
+            margin: 0 0 20px;
+        }
+     
+        
+        .textarea:focus {
+            background: #EDF9FF;
+            border: 1px solid #2D9CDB;
+            box-sizing: border-box;
+            border-radius: 5px;
+         
+        } 
+        
+        .button_form {
+           margin: 20px auto 20px 20px;
+            
+            
+            
+        }
+            
+        }
